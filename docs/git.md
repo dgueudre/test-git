@@ -14,3 +14,11 @@ git add --all
 
 # commit
 git commit -a
+
+# log
+git log -n 2
+git log --oneline
+git log -p readme.md
+
+# diff
+

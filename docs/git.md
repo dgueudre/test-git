@@ -41,3 +41,14 @@ git reset HEAD^^^ (revient 3 crans en arrière)
 git reset HEAD --soft (modif dans staging)
 git reset HEAD --mixed (modif à stagger [défault])
 git reset HEAD --hard (suppression des modifications)
+
+# branch
+git branch redesign
+git branch -d redesign
+
+git checkout pour changer de branch
+
+git merge -no-ff hotfix-html
+
+# manipuler l'historique
+git commit --amend
